@@ -1,0 +1,30 @@
+ext {
+	projectName = "cotton-scripting-py2";
+	group = "io.github.cottonmc";
+	version = "1.0.0+1.14";
+	snapshot = false;
+
+	minecraft = "1.14"
+	mappings = "1.14+build.21"
+	loader = "0.4.3+build.134"
+
+	fabricMod = "0.2.7+build.127"
+
+	silkMod = null;
+	jankson = null; //If needsShadow is false, jankson will not be included!
+	cotton = null;
+
+	needsShadow = false;
+}
+
+repositories {
+	maven {
+		url "http://maven.imagej.net/content/repositories/releases/"
+	}
+}
+
+dependencies {
+	modCompile "io.github.cottonmc:cotton-scripting:1.2.0+1.14"
+	implementation 'org.scijava:scripting-jython:0.4.2'
+	include 'org.scijava:scripting-jython:0.4.2'
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "cotton-scripting-py2",
+  "version": "$version",
+
+  "name": "Cotton Scripting: Python 2.7",
+  "icon": "assets/cotton-scripting-py2.7/icon.png",
+  "description": "Adds support for Python 2.7 to Cotton Scripting.",
+  "licence": "MIT",
+  "contact": {
+    "maven": "http://server.bbkr.space:8081/artifactory/libs-snapshot/io/github/cottonmc/cotton-scripting-py2/",
+    "sources": "https://github.com/CottonMC/cotton-scripting-py2",
+    "issues": "https://github.com/CottonMC/cotton-scripting-py2/issues"
+  },
+
+  "environment": "*",
+  "requires": {
+    "fabricloader": ">=0.4.0"
+  },
+  "custom": {
+    "modmenu:api": true
+  }
+}
